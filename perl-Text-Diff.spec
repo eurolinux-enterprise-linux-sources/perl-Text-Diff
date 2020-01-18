@@ -1,6 +1,6 @@
 Name:           perl-Text-Diff
 Version:        1.41
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Perform diffs on files and record sets
 License:        (GPL+ or Artistic) and (GPLv2+ or Artistic) and MIT
 Group:          Development/Libraries
@@ -49,6 +49,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.41-5
+- Mass rebuild 2013-12-27
+
 * Mon Oct 29 2012 Jitka Plesnikova <jplesnik@redhat.com> - 1.41-4
 - Update license
 
